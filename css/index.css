@@ -1,0 +1,216 @@
+.navbar{
+    background-color: rgb(0, 108, 112);
+}
+
+.nav-link{
+    margin-right: 1em;
+}
+
+.nav-link, .navbar-brand, a{
+    color: rgb(240, 240, 240);
+    transition: 500ms;
+}
+
+.nav-link:hover{
+    color: rgb(0, 108, 112);
+    background: white;
+}
+
+/* Header CSS */
+.header{
+    position: relative;
+    /* background-image: url(../images/team-leader-writing.jpg); */
+    background-position: center;
+    background-size: cover;
+}
+.header video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    object-fit: cover;
+}
+
+/* Header for Blog */
+.header{
+    position: relative;
+    /* background-image: url(../images/team-leader-writing.jpg); */
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+    background: rgb(39, 128, 76);
+    mix-blend-mode: darken;
+    /* this mix blend mode made the picture show */
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1{
+    color: white;
+}
+
+.description p{
+    color: white;
+    font-size: 1.1em;
+    /* font weight: 200; */
+    width: 70%;
+    line-height: 2;
+}
+
+.description button{
+    border: rgb(0, 108, 112);
+    background: rgb(102, 119, 114)));
+    color: white;
+}
+/* READ UP ON BOOTSTRAP DOCUMENTATION
+1. Bootstrap Components
+2. Bootstrap CSS e.g buttons, navbar,
+dropdown, cards, form, form-control, images */
+
+
+/* About Us CSS */
+.about{
+    position: relative;
+    margin: 4em;
+}
+
+.about h1{
+    color: rgb(0, 182, 137);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.about img{
+    height: 100%;
+    width: 100%;
+    border: solid rgb(131, 131, 131);
+    border-radius: 20%;
+}
+
+.about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 80px;
+
+}
+
+.about .about-container{
+    padding: 2em;
+    border-left: 2px solid rgb(214, 214, 214);
+}
+
+.about .about-container h3{
+    font-size: 3.2em;
+}
+
+.about .about-container p{
+    line-height: 2;
+}
+
+/* Mortgage CSS */
+.mortgage{
+    position: relative;
+    margin: 4em;
+}
+
+.mortgage h1{
+    color: rgb(0, 182, 137);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.mortgage img{
+    margin: 1em;
+    width: 400px;
+    height: 200px;
+    transition: 500ms;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.mortgage img:hover{
+    opacity: 1;
+    /* background:(0, 182, 137) ; */
+}
+
+/* MEET OUR TEAM */
+.team{
+    position: relative;
+    margin: 4em;
+}
+
+.team h1{
+    font-size: 3.2em;
+    margin-bottom: 25px;
+    font-weight: 400;
+    color: rgb(0, 182, 137);
+}
+
+
+/* CSS For Blog Session */
+.blog{
+    position: relative;
+    margin: 4em;
+}
+
+.blog .item{
+    position: relative;
+    overflow: hidden;
+}
+
+.blog .des{
+    background: rgb(0, 182, 137);
+    color: white;
+    text-align: center;
+    border-top-right-radius: 93%;
+    transition: 0.6s ease-in-out;
+    /* note: 0.6s means 600ms */
+    position: absolute;
+    width: 89%;
+    bottom: 24px;
+}
+
+.blog .des h6{
+    font-size: 1.1em;
+}
+
+.blog .item:hover .des{
+    height: 100%;
+    position: absolute;
+    background: rgb(0, 108, 112);
+    top: 0;
+    width: 95%;
+    padding: 5em;
+    border-top-right-radius: 0;
+    opacity: 0.7;
+    cursor: pointer;    
+}
+
+/* CUSTOM CSS FOR SCROLLBAR */
+::-webkit-scrollbar-track{
+    box-shadow: insert 0 0 5px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(0, 108, 112);
+    border-radius: 10px;
+}
